@@ -17,7 +17,7 @@ ServerStatus used for alpine
 
 ```
 apk update
-apk add gcc musl-dev linux-headers python3-dev
+apk add python3 gcc musl-dev linux-headers python3-dev
 ```
 
 安装 pip
