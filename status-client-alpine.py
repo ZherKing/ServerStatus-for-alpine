@@ -1,6 +1,7 @@
 ﻿# -*- coding: utf-8 -*-
 # Support Python Version 2.7 to 3.7
 # Update by: https://github.com/CokeMine/ServerStatus-Hotaru
+# Modified by ZheKing https://github.com/ZherKing/ServerStatus-for-alpine
 
 import socket
 import time
