@@ -1,6 +1,8 @@
 ﻿# -*- coding: utf-8 -*-
 # Support Python Version 2.7 to 3.7
-# Update by: https://github.com/CokeMine/ServerStatus-Hotaru
+# Need Python psutil python-dev musl-dev linux-headers gcc environment variable
+# Customizing based on the operating system Alpine does not guarantee that other operating systems can be used
+# Change based on ServerStatus Hotaru link:https://github.com/CokeMine/ServerStatus-Hotaru
 # Modified by ZheKing https://github.com/ZherKing/ServerStatus-for-alpine
 
 import socket
@@ -12,12 +14,15 @@ import psutil
 import subprocess
 from collections import deque
 
+#Enter your server information
+
 SERVER = "127.0.0.1"
 PORT = 35601
 USER = "USER"
 PASSWORD = "PWD"
-INTERVAL = 1  # 更新间隔，单位：秒
+INTERVAL = 1  # Update interval in seconds
 
+#If you do not understand, please do not modify the following data
 
 def check_interface(net_name):
     net_name = net_name.strip()
