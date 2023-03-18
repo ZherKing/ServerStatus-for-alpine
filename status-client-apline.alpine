@@ -1,0 +1,3 @@
+supervisor=supervise-daemon
+name="serverstatus-client"
+command="/usr/bin/python3 /File directory/status-client-alpine.py"
