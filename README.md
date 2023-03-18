@@ -1,8 +1,11 @@
 # ServerStatus-for-alpine 
 
+在 ServerStatus-Hotaru 的基础上更改完成 → [原帖](https://github.com/CokeMine/ServerStatus-Hotaru)
+
+示例网站 → [点击进入](https://status.mclzyun.com)
 ### 使用说明
 ServerStatus used for alpine
-这是根据 alpine 系统改造而成的ServerStatus Client
+这是根据 alpine 系统改造而成的ServerStatus Client（不是服务端）
 
 ### 在使用本程序前你需要有以下环境：
 
