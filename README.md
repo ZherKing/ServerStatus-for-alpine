@@ -36,8 +36,29 @@ pip install --no-binary :all: psutil
 ```
 下载目录下的status-client-alpine.py
 
-输入用户信息等 启动
+```
+mkdir -p /usr/local/ServerStatus/client
+cd /usr/local/ServerStatus/client/
+wget https://github.com/ZherKing/ServerStatus-for-alpine/raw/main/status-client-alpine.py
+```
+
+设置开机自启
 
 ```
-python status-client-alpine.py
+cd /etc/init.d/
+wget https://github.com/ZherKing/ServerStatus-for-alpine/raw/main/status-client-apline.alpine
+chmod 777 status-client-apline.alpine
+rc-update add status-client-apline.alpine boot
+```
+
+输入用户信息等
+
+```
+vim /usr/local/ServerStatus/client/status-client-alpine.py
+```
+
+启动
+
+```
+service status-client-apline.alpine restart
 ```
