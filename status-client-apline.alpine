@@ -1,3 +1,4 @@
+#!/bin/sh
 supervisor=supervise-daemon
 name="status-client-apline"
 command="/usr/bin/python3 /usr/local/ServerStatus/client/status-client-alpine.py"
