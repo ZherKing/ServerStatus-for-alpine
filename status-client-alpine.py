@@ -62,7 +62,7 @@ def get_hdd():
     for disk in psutil.disk_partitions():
         if not disk.device in disks and disk.fstype.lower() in valid_fs:
             disks[disk.device] = disk.mountpoint
-    for disk in disks.itervalues():
+    for disk in disks.values():
         usage = psutil.disk_usage(disk)
         size += usage.total
         used += usage.used
