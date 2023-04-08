@@ -26,6 +26,7 @@ apk add python3 gcc musl-dev linux-headers python3-dev
 安装 pip
 
 ```
+apk add curl
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 ```
