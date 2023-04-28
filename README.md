@@ -1,6 +1,6 @@
 # ServerStatus-for-alpine 
 
-1在 ServerStatus-Hotaru 的基础上更改完成 → [原帖](https://github.com/CokeMine/ServerStatus-Hotaru)
+在 ServerStatus-Hotaru 的基础上更改完成 → [原帖](https://github.com/CokeMine/ServerStatus-Hotaru)
 
 示例网站 → [点击进入](https://status.mclzyun.com)
 ### 使用说明
